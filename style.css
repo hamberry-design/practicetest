@@ -1,0 +1,41 @@
+body {
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+}
+
+.inputbg {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-family: arial, sans-serif;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+
+.inputbg h1 {
+    color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputbg input {
+    height: 35px;
+    display: flex;
+}
+
+.inputbg select {
+    height: 40px;
+}
+
+.inputbg button {
+    height: 40px;
+    background-color: darkorange;
+    color: white;
+}
