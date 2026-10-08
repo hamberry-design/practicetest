@@ -16,12 +16,12 @@ const displayorder = document.getElementById("orderdisplay");
 
 document.getElementById("order").addEventListener('click', function(e) {
 
-    (orderprice = (Number(document.getElementById("drinkType").value) *
-        Number(document.getElementById("input3").value)))
-
-    displayorder.textcontent = orderprice
+    document.getElementById("result").innderHTML =
+        (Number(document.getElementById("drinkType").value) *
+        Number(document.getElementById("input3").value));
 
 })
+
 
 
 
